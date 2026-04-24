@@ -1,0 +1,30 @@
+:root {
+  /* Brand colors */
+  --sh-blue-digital: #4760F0;
+  --sh-blue-business: #0D1453;
+  --sh-yellow-attention: #FAAE39;
+  --sh-beige-modern: #EDE6DE;
+
+  /* Semantic colors */
+  --color-primary: var(--sh-blue-digital);
+  --color-secondary: var(--sh-blue-business);
+  --color-accent: var(--sh-yellow-attention);
+  --color-background: var(--sh-beige-modern);
+  --color-surface: #FFFFFF;
+  --color-text: #111827;
+  --color-muted: #667085;
+
+  /* Typography */
+  --font-primary: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Type scale inspired by the KV hierarchy: title 4x body, subtitle 2x body */
+  --text-body: 1rem;
+  --text-subtitle: 2rem;
+  --text-title: 4rem;
+
+  /* Shape and elevation */
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --shadow-brand: 0 24px 60px rgba(13, 20, 83, 0.14);
+}
